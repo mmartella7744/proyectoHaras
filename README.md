@@ -9,3 +9,5 @@ Nuestro objetivo es el siguiente: "Nuestro cliente DH Venture Capitals ha puesto
 Para cumplir con el objetivo se nos definieron una serie de Sprints que nos iran guiando en pos del mismo.
 
 Nuestro proyecto sera desarrollar una pagina web, donde venderemos bolsos y mochilas, tanto de tela como cuero. Nuestro target seran personas entre 16-40 años, que les guste....
+
+https://www.revolve.com/beis-backpack/dp/BEIS-WY26/?d=Womens&page=1&lc=2&itrownum=1&itcurrpage=1&itview=05&bneEl=false
