@@ -90,67 +90,67 @@ div.lupa i {
 }
 
 
-/* .submenu nav:hover {
-    box-shadow: 0px 0px 10px rgb(100 ,100 ,100 );
-} */
+/*Main*/
 
-.texto{
-    position: absolute;
-    left: 40%;
-    bottom: 10%;
-    background-color: transparent;
-    border: 2px solid white;
-    padding: 2%;
-    border-radius: 9px;
-    outline: none;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+
+
+.login {
+    display: flex ;
+    margin: 15px 10px; 
+    padding: 10;
+    width:100%; 
+    justify-content: space-around;  
+    flex-direction: row; 
+    flex-wrap: nowrap;}
+
+.boton{
+    background-color: black;
     color: white;
+    width: 100%;
 }
 
-.oferta{
-    position: absolute;
-    left: 15%;
-    top: 10%;
-    font-size: xx-large;
-    color: white;
+.inicia h3{
+    margin: 10px;
+    padding: 10px;
 }
 
-.contenedor{
-    position: relative;
+.inicia h4{
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
-.destacados{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.inicia p{
+    margin: 10px;
+    padding: 10px;
 }
+    
+ main input {
+    border: solid 3px beige;
+    background-color: white;
+    font-size:20;
+    margin: 15px;
+    padding: 20px 40px ;
+    border-radius:5px;
+    display: block;
+    width: 100%;
+}
+    
+ main input.boton{
+     padding: 8px;
 
-.img-mochila{
-    width: 70%;
-}
+ }
 
-.imgInicio{
-    width:100%;
-}
 
-.productos{
-    box-shadow: 2px 2px 2px 2px darkgrey;
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 3%;
-}
+.registrate p {font-size: 10px;color: grey; text-align: center; margin: 10px; padding-top: 30px; width: 100%;}
 
-.textoProducto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+.login p {font-size: 10px;color: grey; text-align: center; margin: 10px; padding-top: 30px; width: 100%; }
 
-.productosDestacados{
-    text-align: center;
-}
+.vl {
+    border-left: 6px solid black;
+    height: 500px;
+    margin: 0%;
+  }
+
+  
+
