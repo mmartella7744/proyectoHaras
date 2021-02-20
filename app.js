@@ -14,3 +14,7 @@ app.get('/', (req,res)=>{
 app.get('/logreg', (req,res)=>{
     res.sendFile(__dirname + '/views/logreg.html');
 });
+
+app.get('/carrito', (req,res)=>{
+    res.sendFile(__dirname + '/views/carrito.html');
+});
