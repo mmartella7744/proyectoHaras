@@ -1,5 +1,7 @@
 const express = require('express');
+
 const app = express();
+
 app.use(express.static('public'));
 
 
@@ -13,11 +15,14 @@ app.get('/logreg', (req,res)=>{
 
 app.get('/carrito', (req,res)=>{
     res.sendFile(__dirname + '/views/carrito.html');
-    
+});
+
 app.get('/footer', (req,res)=>{
     res.sendFile(__dirname + '/views/footer.html');
 });
 
-app.listen(process.env.PORT || 4000, ()=>{
-    console.log('Servidor funcionando');
+const PORT = 4000;
+
+app.listen(PORT, () => {
+   console.log('Server is running on PORT: 4000');
 });
