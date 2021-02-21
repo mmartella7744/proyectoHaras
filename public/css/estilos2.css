@@ -99,10 +99,14 @@ div.lupa i {
     width:100%; 
     justify-content: space-around;  
     flex-direction: row; 
-    flex-wrap: nowrap;}
+    flex-wrap: nowrap;
+    position: relative;
+}
 
     .textoCarro{
+        display: flex;
         text-align: center;
+        align-items: center;
     }
 
 .vl {
@@ -110,3 +114,79 @@ div.lupa i {
     height: 500px;
     margin: 0%;
   }
+
+  .carroForm{
+      display: flex; 
+      justify-content: space-around; 
+      flex-wrap: nowrap; 
+      flex-direction: row;
+      
+    }
+
+    .produ{
+        box-shadow: 2px 2px 2px 2px darkgrey;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3%;
+    }
+
+    .contenedor{
+       display: flex; 
+      justify-content: space-around; 
+      flex-wrap: nowrap; 
+      flex-direction: row;
+      margin-bottom: 60px;
+    }
+
+
+    .fotoDes p {
+        padding-top: 30px;
+        font-size: 10px;
+        color: grey
+
+
+    }
+
+    .fotoDes h3 {
+        
+
+
+    }
+
+    .linea {
+        border-top: 1px solid black;
+        height: 2px;
+        width: 60%;
+        padding: 0;
+        margin: 20px auto 0 auto;
+        display: flex;
+        align-items: center;
+      }
+      .contenedorpapi{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+
+      .botonetes{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-top: 60px;
+
+
+      }
+
+      .boton{
+        background-color: black;
+        color: white;
+        width: 80%;
+        margin: 20px;
+        padding: 10px;
+
+    
+    }
+    
