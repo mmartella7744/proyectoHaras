@@ -1,0 +1,112 @@
+/*Estilos Generales*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+.padre{
+    display: flex;
+    flex-flow: column; 
+    flex-wrap: nowrap;
+}
+
+.header{background-color:#222; }
+
+header div.logo{
+    width: 20%;
+    padding: 10px;
+}
+
+.menu{ display: flex; flex-flow: row; flex-wrap: nowrap; 
+align-items: center; justify-content: space-between;
+
+}
+
+
+
+.nav{ font-size: 17px; display: flex;  }
+
+
+ul{display: flex;justify-content: space-between; flex-wrap: nowrap; }
+
+
+
+li{display: inline-block; margin: 30px; text-align: center;}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(204, 197, 197);
+}
+
+.submenu {
+    display: flex; 
+    flex-flow: row; 
+    flex-wrap: nowrap; 
+    align-items: center; 
+    justify-content: space-around; 
+    background-color: rgb(245, 245, 241);
+    
+}
+
+.submenu nav ul li a{color: black;}
+
+.fa-twitter-square,.fa-instagram,.fa-facebook-square{margin: 10px 15; padding: 10; justify-content: space-between;}
+
+
+div.form {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    width: 49%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #666;
+}
+
+div.input {
+    display: flex;
+    width: 100%;
+}
+
+div.input input {
+    border: none;
+    width: 90%;
+    outline: none;
+}
+
+div.input button {
+    border: none;
+    cursor: pointer;
+}
+
+div.lupa i {
+    font-size: 17px;
+    background-color: white;
+    outline: none;
+}
+
+
+/*MAIN*/
+
+.carrito {
+    display: flex ;
+    margin: 15px 10px; 
+    padding: 10;
+    width:100%; 
+    justify-content: space-around;  
+    flex-direction: row; 
+    flex-wrap: nowrap;}
+
+    .textoCarro{
+        text-align: center;
+    }
+
+.vl {
+    border-left: 6px solid black;
+    height: 500px;
+    margin: 0%;
+  }
