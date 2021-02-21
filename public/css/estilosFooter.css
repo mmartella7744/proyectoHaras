@@ -9,40 +9,43 @@ footer{
     background-color: #222;
 }
 .contFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 1%;
 }
 .title1{
     text-align: center;
-    margin: 1% auto;
-    font-size: 3.7vw;
+    font-size: 2.5vw;
     font-weight: inherit;
     color: rgb(204, 197, 197);
 }
-div ul{
+footer div ul{
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
     width: 70%;
 }
-div ul.logRedes{
+footer div ul.logRedes{
     display: flex;
     justify-content: center;
 }
-div ul li{
+footer div ul li{
     display: inline-flex;
     justify-content: space-evenly;
     margin: 0% 0%;
     color: white;
     border-radius: 50%;
-    font-size: 1.33em;
+    font-size: 0.95em;
     padding: 1% 1%; 
 
 }
-div ul li a{
-    color: white;
+footer div ul li a{
+    color: rgb(204, 197, 197);
     border-radius: 50%;
-    font-size: 22px;
-    padding: 7px; 
+    font-size: 2.2vw;
+    padding: 7px;
+    text-decoration: none;
 }
 div.redes{
     display: flex;
@@ -50,6 +53,7 @@ div.redes{
     justify-content: center;
     padding: 20px 40px 0px;
     color: rgb(125, 125, 125);
+    width: 90%;
 }
 .fb{
     width: 1.2em;
@@ -58,12 +62,12 @@ div.redes{
     border: 1px solid transparent;
     border-radius: 34px;
     color: #3b5998;
-    font-size: 1.37em;
+    font-size: 1.3em;
     text-align: center;
     line-height: 34px;
     background-color: none;
     transition: background-color 0.2s ease-out 0s, border-color 0.2s ease-out 0s, color 0.2s ease-out 0s;
-    margin: 0 100%;
+    
 }
 .twtr{
     width: 1.2em;
@@ -72,12 +76,12 @@ div.redes{
     border: 1px solid transparent;
     border-radius: 34px;
     color: rgb(29, 161, 242);
-    font-size: 1.37em;
+    font-size: 1.3em;
     text-align: center;
     line-height: 34px;
     background-color: none;
     transition: background-color 0.2s ease-out 0s, border-color 0.2s ease-out 0s, color 0.2s ease-out 0s;
-    margin: 0 100%;
+    
 }
 .ig{
     width: 1.2em;
@@ -86,22 +90,28 @@ div.redes{
     border: 1px solid transparent;
     border-radius: 34px;
     color: #C13584;
-    font-size: 1.37em;
+    font-size: 1.3em;
     text-align: center;
     line-height: 34px;
     background-color: none;
     transition: background-color 0.2s ease-out 0s, border-color 0.2s ease-out 0s, color 0.2s ease-out 0s;
-    margin: 0 100%;
+    
 }
 .lowBar{
     display: flex;
     justify-content: space-around;
-    margin: 7% auto 0 auto;
+    align-items: center ;
+}
+nav.lowBar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 2%;
 }
 .disclaimer{
     text-align: center;
     margin: 1% auto;
-    font-size: 2.2vw;
+    font-size: 1.2vw;
     font-weight: normal;
     color: #fff;
     padding: 1%;

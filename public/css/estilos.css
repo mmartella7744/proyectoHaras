@@ -104,16 +104,15 @@ div.lupa i {
     border-radius: 9px;
     outline: none;
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
 .oferta{
     position: absolute;
-    left: 15%;
-    top: 10%;
+    left: 45%;
+    top: 15%;
     font-size: xx-large;
-    color: white;
+    color: rgb(29, 28, 28);
 }
 
 .contenedor{
